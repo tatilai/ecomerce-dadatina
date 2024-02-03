@@ -1,0 +1,322 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/*General*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/*Tipografia*/
+h1,p,ul{
+  
+   font-family: 'Lato', sans-serif;
+}
+
+
+/*color de texto*/
+.text-pink{
+    color: rgba(127, 34, 102, 0.831);
+}
+
+.text-danger{
+    color: #e79796;
+}
+
+.text-lavanda{
+    color:#7f3fce;
+ 
+}
+
+.text-lila{
+    color: #c19ded;
+}
+
+.text-rosa{
+    color: #E89CD2;
+}
+
+.text-blanco{
+    color: whitesmoke;
+   
+}
+
+.text-negro{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.text-rosaa{
+    color:#c95acd
+
+}
+
+.text-acqua{
+    color:#6157b8;
+    font-weight: bold;
+}
+
+.text-celeste{
+    color:#6f92d9;
+    font-weight: bold;
+}
+
+/*botones*/
+
+.btn-violeta:hover{
+background-color:#B5CAC3;
+color: whitesmoke;
+}
+
+
+.btn-violeta{
+    background-color: #E7AEB4;
+    font-family: 'Lato', sans-serif;
+}
+
+.btn-lila{
+    background-color: #c19ded;
+    color: whitesmoke;
+}
+
+.btn-lila:hover{
+    background-color:#7d3ec9;
+    color: whitesmoke;
+}
+
+.btn-amarillo:hover{
+    background-color:#F2BC8D;
+    color: whitesmoke;
+}
+
+.btn-amarillo{
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-family: 'Lato', sans-serif;
+    background-color:#F2BC8D;
+   
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-celeste:hover{
+    background-color:#b3c8f2;
+    color: whitesmoke; 
+}
+
+.btn-celeste{
+    background-color: #E7AEB4;
+
+}
+
+.btn-verde{
+    background-color: #74a695;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    
+}
+
+.btn-verde:hover{
+    background-color: #74a695;
+}
+
+.btn-warning{
+    background-color:#e3aa5b ;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    
+    font-weight: bold;
+    
+}
+
+
+
+.btn-danger{
+    background-color: #de396d;
+    border: none;
+    outline: none; 
+    color: whitesmoke;
+    font-size: 18px;
+  
+    font-weight: bold;
+}
+
+.btn-violetas{
+    background-color: #7f3fce;
+    border: none;
+    outline: none;
+    
+}
+
+.btn-violetas:hover{
+    background-color: #c19ded;
+}
+
+.btn-azul{
+    background-color: #c95acd;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.btn-azul:hover{
+    background-color: #c19ded;
+}
+
+.btn-akua{
+    background-color: #25c7a9;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+
+}
+
+.btn-akua:hover{
+    background-color: #a5d9a1;
+}
+
+.btn-naranja{
+    background-color: #ff916b;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.btn-naranja:hover{
+    background-color: #ef8f88;
+}
+
+.btn-crema{
+    background-color: #fbd9af;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    
+}
+
+.btn-crema:hover{
+    background-color: #f8cfa3;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.btn-viole{
+    background-color: #927ac3;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.btn-viole:hover{
+    background-color:#927ac3;
+    color: whitesmoke;
+}
+
+
+
+
+/*color de fondo del nav*/
+.nav-items{
+    color: #c9bbc8;
+}
+
+
+/*Color de fondo*/
+.bg-rosa{
+    background-color: #b3c8f2;
+    
+}
+
+.bg-secondary{
+    background-color: #d4c3e9;
+    color: antiquewhite;
+}
+
+.bg-gris{
+    background-color: #e8d9cd;
+}
+
+.bg-violeta{
+    background-color: #d092d8;
+}
+
+
+
+.bg-celeste{
+    background-color: #B5CAC3;
+}
+
+.bg-crema{
+    background-color: #FAF8F4;
+}
+
+.bg-rosita{
+    background-color: #ffe3dc;
+}
+
+
+
+
+
+
+/*Bordes de las cards*/
+.border-super{
+    border-color: #7f3fce!important;
+}
+
+.border-verde{
+   border-width:medium!important;
+    border-radius: 15px;
+    border-color:#74a695!important;
+    
+}
+
+.border-violeta{
+    border-color: #a077ff!important;
+    border-width: medium!important;
+    border-radius: 20px!important;
+}
+
+.border-violet{
+    border-color: #96617c!important;
+    border-width: medium!important;
+    border-radius: 20px!important;
+}
+
+
+/*ul*/
+
+#lista{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: auto;
+   line-height: 50px;
+}
+
+
+
+
+
